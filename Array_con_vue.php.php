@@ -49,7 +49,7 @@
         <tr v-for="ubicacion of ciudadades">
           <!-- V-for Arreglo de usuarios -->
           <th>{{ubicacion.Ciudad}}</th>
-           <!-- V-for Arreglo con objetos ciudadades y calificacion -->
+           <!-- V-for Arreglo con objetos ciudadades , habitantes y año de la actualizacion-->
           <td>{{ubicacion.Habitantes}}</td>
           <td>{{ubicacion.Año}}</td>
         </tr>
